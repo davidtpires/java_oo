@@ -1,6 +1,4 @@
-package br.com.alura.screenmatch.calculos;
-
-import br.com.alura.screenmatch.modelos.Titulo;
+package br.com.alura.screenmatch.aulas.calculos;
 
 public class FiltroDeRecomendacao {
 

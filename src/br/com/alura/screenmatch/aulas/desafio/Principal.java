@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.desafio;
+package br.com.alura.screenmatch.aulas.desafio;
 
 public class Principal {
     public static void main(String[] args) {

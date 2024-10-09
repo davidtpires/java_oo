@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.desafio;
+package br.com.alura.screenmatch.aulas.desafio;
 
 public class ConversorMoeda implements ConversaoFinanceira{
     double umDolarReal = 5.56;
