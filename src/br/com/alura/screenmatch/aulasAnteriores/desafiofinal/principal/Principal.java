@@ -3,7 +3,6 @@ package br.com.alura.screenmatch.aulasAnteriores.desafiofinal.principal;
 import br.com.alura.screenmatch.aulasAnteriores.desafiofinal.modelo.CartaoDeCredito;
 import br.com.alura.screenmatch.aulasAnteriores.desafiofinal.modelo.Compra;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
@@ -17,7 +16,6 @@ public class Principal {
         CartaoDeCredito cartao = new CartaoDeCredito(limite);
 
         System.out.println("Limite do cartão:" + cartao.getLimite());
-        ArrayList<Compra> compras = new ArrayList<>();
 
         while (opcao != 0){
             System.out.println("Digite a descrição da compra:");
@@ -26,16 +24,16 @@ public class Principal {
             System.out.println("Digite o valor da compra:");
             double valor = scanner.nextDouble();
             Compra compra = new Compra(descricao,valor);
-            compras.add(compra);
+            cartao.lancaCompras(compra);
 
             System.out.println("Digite 0 para sair ou 1 para continuar");
             opcao = scanner.nextInt();
         }
 
-        Collections.sort(compras);
+        Collections.sort(cartao.getCompras());
         System.out.println("***************************");
         System.out.println("COMPRAS REALIZADAS:");
-        for (Compra compra : compras){
+        for (Compra compra : cartao.getCompras()){
             System.out.println(compra.getDescricao() + " - " + compra.getValor());
         }
         System.out.println("***************************");
