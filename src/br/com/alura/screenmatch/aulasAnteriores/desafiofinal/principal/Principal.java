@@ -24,7 +24,12 @@ public class Principal {
             System.out.println("Digite o valor da compra:");
             double valor = scanner.nextDouble();
             Compra compra = new Compra(descricao,valor);
-            cartao.lancaCompras(compra);
+            if (cartao.lancaCompras(compra)){
+                System.out.println("Compra efetuada com sucesso!");
+            } else {
+                System.out.println("Erro na compra Saldo insuficiente!");
+            }
+            System.out.println("Seu saldo atual é de R$"+cartao.getSaldo());
 
             System.out.println("Digite 0 para sair ou 1 para continuar");
             opcao = scanner.nextInt();
