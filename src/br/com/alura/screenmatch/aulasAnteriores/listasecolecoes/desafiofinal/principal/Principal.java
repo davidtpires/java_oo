@@ -1,7 +1,7 @@
-package br.com.alura.screenmatch.aulasAnteriores.desafiofinal.principal;
+package br.com.alura.screenmatch.aulasAnteriores.listasecolecoes.desafiofinal.principal;
 
-import br.com.alura.screenmatch.aulasAnteriores.desafiofinal.modelo.CartaoDeCredito;
-import br.com.alura.screenmatch.aulasAnteriores.desafiofinal.modelo.Compra;
+import br.com.alura.screenmatch.aulasAnteriores.listasecolecoes.desafiofinal.modelo.CartaoDeCredito;
+import br.com.alura.screenmatch.aulasAnteriores.listasecolecoes.desafiofinal.modelo.Compra;
 
 import java.util.Collections;
 import java.util.Scanner;

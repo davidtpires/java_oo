@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.aulasAnteriores.desafiofinal.modelo;
+package br.com.alura.screenmatch.aulasAnteriores.listasecolecoes.desafiofinal.modelo;
 
 import java.util.ArrayList;
 import java.util.List;
