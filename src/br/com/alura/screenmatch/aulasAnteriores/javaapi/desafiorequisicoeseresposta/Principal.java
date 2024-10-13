@@ -1,6 +1,4 @@
-package br.com.alura.screenmatch.aulasAnteriores.desafiorequisicoeseresposta;
-
-import br.com.alura.screenmatch.aulasAnteriores.listasecolecoes.desafioconstruindoobjetos.Main;
+package br.com.alura.screenmatch.aulasAnteriores.javaapi.desafiorequisicoeseresposta;
 
 import java.io.IOException;
 import java.net.URI;
