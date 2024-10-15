@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.aulasAnteriores.desafiolidandocomexcecoes;
+package br.com.alura.screenmatch.aulasAnteriores.javaapi.desafiolidandocomexcecoes;
 
 import java.io.IOException;
 import java.net.URI;
