@@ -1,11 +1,7 @@
-package br.com.alura.screenmatch.aulasAnteriores.desafiopesisntindodadosarquivos.principal;
-import br.com.alura.screenmatch.aulasAnteriores.desafiopesisntindodadosarquivos.modelos.Titulo;
-import br.com.alura.screenmatch.aulasAnteriores.desafiopesisntindodadosarquivos.modelos.Veiculo;
-import com.google.gson.FieldNamingPolicy;
+package br.com.alura.screenmatch.aulasAnteriores.javaapi.desafiopesisntindodadosarquivos.principal;
+import br.com.alura.screenmatch.aulasAnteriores.javaapi.desafiopesisntindodadosarquivos.modelos.Veiculo;
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
-import java.io.FileWriter;
 import java.io.IOException;
 
 public class Principal {

@@ -1,4 +1,4 @@
-package br.com.alura.screenmatch.aulasAnteriores.desafiopesisntindodadosarquivos.modelos;
+package br.com.alura.screenmatch.aulasAnteriores.javaapi.desafiopesisntindodadosarquivos.modelos;
 
 public class Titulo {
 
